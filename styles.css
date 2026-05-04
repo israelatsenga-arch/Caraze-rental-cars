@@ -104,3 +104,7 @@ footer{
     text-align: center;
     padding-bottom:auto;
 }
+.formlink{
+    text-decoration: none;
+    color:blueviolet;
+}
