@@ -79,34 +79,18 @@ h2{
 #brandlinks a:hover{
     color: #E4F0F6;
 }
-form{
-    max-width: 650px;
-    margin:24px auto;
-}
 form label{
-    margin-bottom:8px;
-    display:block
+    display: block;
 }
-form input, form textarea, form button{
-    width:100%;
-    padding:14px;
-    margin-bottom:18px;
-    font-size:16px;
-    border:1px solid #006F62;
-    border-radius: 8px;
-}
-form input:focus, form textarea:focus{
-    border-color:#006F62;
-    outline:none;
+form input,form button,form select{
+    border: 2px solid #006F62;
+    border-radius: 4px;
 }
 form button{
-    background-color:#006F62;
-    color:white;
-    font-size:18px;
-    font-weight:600;
-    border:none;
+    background-color: #006F62;
+    color:#E4F0F6;
+    padding:8px 16px;
     transition: background-color 0.3s ease;
-    cursor:pointer;
 }
 form button:hover{
     background-color:green;
@@ -115,5 +99,8 @@ form button:active{
     background-color:greenyellow;
 }
 footer{
-    background-color: #006F62;
+    background-color: #0A0F1E;
+    color: #E4F0F6;
+    text-align: center;
+    padding-bottom:auto;
 }
