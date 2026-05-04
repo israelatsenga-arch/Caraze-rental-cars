@@ -64,3 +64,11 @@ h2{
 .box:hover{
     box-shadow: 8px 4px 8px gray;
 }
+#carsections{
+    background-color:#006F62;
+    padding:5px;
+}
+#brandlinks{
+    list-style:none;
+    display:flex;
+}
