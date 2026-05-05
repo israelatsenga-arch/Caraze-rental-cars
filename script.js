@@ -6,10 +6,11 @@ button.addEventListener("click", (event) => {
 
 // Fill form when user clicks a car
 function fillForm(car, rate) {
-  document.getElementById("car").value = car;
-  document.getElementById("rate").value = rate;
+  document.querySelector("#car").value = car;
+  document.querySelector("#rate").value = rate;
 
   // Save selected car immediately
   localStorage.setItem("car", car);
   localStorage.setItem("rate", rate);
 }
+
