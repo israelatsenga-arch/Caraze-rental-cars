@@ -49,6 +49,7 @@ h2{
 .container{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     grid-template-columns: 1fr;
 }
 /* tablet */
@@ -72,6 +73,7 @@ h2{
     transition: box-shadow 0.3s ease;
     background-color:black;
     color:#E4F0F6;
+    flex: 1 1 250px;
 }
 .box img{
     width: 200px;
