@@ -14,3 +14,12 @@ function fillForm(car, rate) {
   localStorage.setItem("rate", rate);
 }
 
+// retrieving data from form
+function calculateTotal() {
+    let name = document.querySelector("#name").value;
+    let email = document.querySelector("#email").value;
+    let days = parseInt(document.querySelector("#days").value);
+    let price = parseInt(document.querySelector("#rate").value);
+    let car = document.querySelector("#car").value;
+
+}
