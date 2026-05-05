@@ -33,6 +33,4 @@ function calculateTotal() {
     let total = days * price;
 
     // display result
-    let resultText = '${full-name}, you have rented ${car} for ${days} days. Total cost = KES ${total}';
-    document.querySelector("#amount").textContent = resultText;
 }
