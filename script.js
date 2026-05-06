@@ -19,14 +19,15 @@ function fillForm(car, rate) {
 // retrieving data from form
 function calculateTotal() {
     let name = document.querySelector("#full-name").value;
+    let id = parseInt(document.querySelector("#id").value);
     let email = document.querySelector("#email").value;
     let days = parseInt(document.querySelector("#days").value);
     let price = parseInt(document.querySelector("#rate").value);
     let car = document.querySelector("#car").value;
 
     // validation of input
-    if (!name || !email || !car || days <= 0 || price <= 0) {
-        alert("Please fill in all the fields");
+    if (!name || id <=0 || !email || !car || days <= 0 || price <= 0) {
+        alert("Please fill in all the fields correctly");
         return;
     }
     // calculating total
