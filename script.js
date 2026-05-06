@@ -60,5 +60,4 @@ const sendButton = document.querySelector("#send")
 sendButton.addEventListener("click", (event) => {
   // prevent form from refreshing page
   event.preventDefault();
-  sendMessage();
 });
