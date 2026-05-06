@@ -50,6 +50,9 @@ function calculateTotal() {
     total: total
   };
   localStorage.setItem("data", JSON.stringify(data));
+
+  // retrieving the data
+  const objectRetrieved = JSON.parse(localStorage.getItem("data"));
 }
 
 
