@@ -52,8 +52,11 @@ h2{
     flex-wrap: wrap;
     grid-template-columns: 1fr;
 }
+/* mobile */
+body{font-size: 14px;}
 /* tablet */
 @media (min-width:768px){
+    body{font-size: 16px;}
     .container{
         grid-template-columns: repeat(2,1fr);
     }
