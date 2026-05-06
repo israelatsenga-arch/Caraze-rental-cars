@@ -51,3 +51,13 @@ function calculateTotal() {
   };
   localStorage.setItem("data", JSON.stringify(data));
 }
+
+
+
+// contact page
+// event listener for send button in contact page
+const sendButton = document.querySelector("#send")
+sendButton.addEventListener("click", (event) => {
+  // prevent form from refreshing page
+  event.preventDefault();
+});
