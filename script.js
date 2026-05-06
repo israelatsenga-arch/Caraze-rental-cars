@@ -37,8 +37,9 @@ function calculateTotal() {
   const resultBox = document.querySelector(".amount");
   resultBox.textContent = "Dear " + name + " you will need to pay a total of " + total + " please visit us at one of our branches so as to make the payment and get your luxurious car."
 
-  const h1 = document.querySelector("h1")
-  h1.textContent = "We look forward to seeing you.";
+  const h1 = document.querySelector("h1");
+    h1.textContent = "We look forward to seeing you."; 
+  
   
   // save to local storage
   let data = {
@@ -59,7 +60,7 @@ function calculateTotal() {
 
 // contact page
 // event listener for send button in contact page
-const sendButton = document.querySelector("#send")
+const sendButton = document.querySelector("#send");
 sendButton.addEventListener("click", (event) => {
   // prevent form from refreshing page
   event.preventDefault();
