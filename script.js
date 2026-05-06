@@ -34,5 +34,16 @@ function calculateTotal() {
 
   // display result
   const resultBox = document.querySelector("#amount");
-  resultBox.textContent = "Dear " + name + " you will need to pay " + total +" at one of our branches so as to get your car."
+  resultBox.textContent = "Dear " + name + " you will need to pay a total of " + total + " at one of our branches so as to get your car."
+  
+  // save to local storage
+  let data = {
+    name: name,
+    email: email,
+    days: days,
+    price: price,
+    car: car,
+    total: total
+  };
+  localStorage.setItem("data", JSON.stringify(data));
 }
