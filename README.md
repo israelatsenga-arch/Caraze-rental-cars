@@ -20,7 +20,7 @@ Mark Israel
 
 ## BDD(Behaviour Driven Development)
 1. Input:name,identification card number,email,the number of days you want to rent the car and the vehicle you want.
-    * Output:A message informing you on how much you are supposed to pay and requesting you to visit one of the branches to make payments and get your car
+    * Output:An update informing you on how much you are supposed to pay and requesting you to visit one of the branches to make payments and get your car
 
 ## Link to Github Project
 https://github.com/israelatsenga-arch/Caraze-rental-cars
