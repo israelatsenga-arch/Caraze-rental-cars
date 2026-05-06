@@ -32,5 +32,7 @@ function calculateTotal() {
     // calculating total
     let total = days * price;
 
-    // display result
+  // display result
+  const resultBox = document.querySelector("#amount");
+  resultBox.textContent = "Dear " + name + " you will need to pay " + total +" at one of our branches so as to get your car."
 }
