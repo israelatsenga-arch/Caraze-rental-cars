@@ -34,10 +34,10 @@ function calculateTotal() {
     let total = days * price;
 
   // display result
-  const resultBox = document.querySelector("main");
-  resultBox.textContent = "Dear " + name + " you will need to pay a total of " +total +" please visit us at one of our branches so as to make the payment and get your luxurious car.";
-  resultBox.style.backgroundColor = "#E4F0F6"
-  resultBox.style.color ="#0A0F1E"
+    const resultBox = document.querySelector("main");
+    resultBox.textContent ="Dear " + name + ",your total will be  KES" + total +" please visit us at one of our branches so as to make the payment and get your luxurious car.";
+    resultBox.style.backgroundColor = "#E4F0F6";
+    resultBox.style.color = "#0A0F1E";
   
   
   // save to local storage
