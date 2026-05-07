@@ -6,7 +6,7 @@ This website enables users to rent luxurious cars instead of buying them.
 ## Author
 Mark Israel
 
-## Built with
+## Technologies used
 * HTML
 * CSS
 * JAvaScript
